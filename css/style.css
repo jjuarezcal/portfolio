@@ -110,7 +110,7 @@ body {
     grid-area: main;
     flex-shrink: 0;
     display: grid;
-    grid: "profile profile aside-rigth" 3fr "html css figma" 1fr / 1fr 1fr 1fr;
+    grid: "profile profile profile" auto "html css figma" 1fr / 1fr 1fr 1fr;
     gap: 8px;
 }
 
@@ -119,23 +119,51 @@ body {
     height: 20.0625rem;
 }
 
+.main__h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #292A36;
+    font-weight: 500;
+    padding-bottom: 0.2rem;
+}
+
+.main__h3 {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.main__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .main__profile {
     grid-area: profile;
     border-radius: 1.875rem;
-    height: 20.0625rem;
-    background: url(../public/images/html5.jpg), lightgray 50% / cover no-repeat;
-    background-size: cover;
+    height: auto;
+    padding: 2.5rem 1rem 2.5rem 1.5rem;
+    border: 2px solid var(--Primary-Grey, #292A36);
+    /* background: url(../public/images/html5.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover; */
 }
 
-.main__aside-rigth {
-    grid-area: aside-rigth;
+.main__tools {
     display: flex;
-    padding: 0rem 0.8rem;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 2.5rem;
-    border-radius: 1.875rem;
-    background: var(--Gradient, linear-gradient(106deg, #FCC188 0%, #7042D2 65.07%, #2E008E 100%));
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1rem;
+}
+
+.main__image {
+    width: 40px;
+    height: 40px;
 }
 
 .chart__container {
@@ -143,8 +171,6 @@ body {
     align-items: flex-start;
     gap: 0.625rem;
 }
-
-.chart__image {}
 
 .main__html {
     grid-area: html;
