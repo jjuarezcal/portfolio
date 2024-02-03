@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+:root {
+    --font-family: 'Inter', sans-serif;
+    --body-background-mode: #1E1E1E;
+    --background-color: #2e2e30;
+    --background-color-secondary: #424244;
+    --background-color-ligth: #ffffff;
+    --text-color-primary: #CCCCCC;
+    --color: #b4b4bd;
+}
+
 body {
-    background-color: #1E1E1E;
-    font-family: 'Inter', sans-serif;
+    background-color: var(--body-background-mode);
+    font-family: var(--font-family);
     font-weight: 300;
 }
 
@@ -95,6 +105,10 @@ body {
 
 .header {
     grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     font-weight: 400;
     padding-top: 1.2rem;
 }
@@ -237,6 +251,7 @@ body {
 .bottom__percent {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 0.375rem;
     justify-content: space-between;
 }

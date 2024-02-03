@@ -1,0 +1,76 @@
+/* 
+Juan mode manual basic 2022 (◕‿◕)
+*/
+
+
+/* Estilos por defecto (modo oscuro) */
+
+body {
+    background-color: var(--body-background-mode);
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+
+/* Estilos para el modo claro 
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+*/
+
+
+/* Estilos para modo oscuro (cambiado manualmente) */
+
+[data-theme='light'] {
+    .layout {
+        background-color: #ffffff;
+        color: black;
+    }
+    .header {
+        background-color: #ffffff;
+    }
+    .aside__section {
+        background-color: rgb(18, 70, 70);
+    }
+    .aside__copy {
+        display: flex;
+        width: 16.75rem;
+        height: 5.3125rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        flex-shrink: 0;
+        border-radius: 0.625rem;
+        margin-top: 6rem;
+        background: linear-gradient(101deg, rgb(72 69 69 / 38%) 0%, rgb(142 137 137 / 0%) 58.37%);
+    }
+    .menu__li,
+    .footer__li,
+    .userdata__name h4 {
+        color: black;
+    }
+    .footer {
+        border-top: 1px solid #cececf;
+        background-color: #ffffff;
+    }
+    .aside,
+    .search__input,
+    .container__userdata {
+        background-color: var(--background-color-ligth);
+    }
+    .aside__block,
+    .aside__block--right {
+        background-color: var(--background-color-ligth);
+        color: var(--color);
+    }
+    .news__article {
+        background: #FFFFFF;
+    }
+    .header__slider:before {
+        background-image: url(../public/images/sun.png);
+    }
+}
