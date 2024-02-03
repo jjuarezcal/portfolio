@@ -7,7 +7,7 @@
 
 - 👨‍💻 Puedes visitar mi Github [https://github.com/jjuarezcal](https://github.com/jjuarezcal)
 
-- 💬 Podemos hablar de **HTML, CSS, Javascritp, Angular, Wordpress**
+- 💬 Podemos hablar de **HTML, CSS, JavaScript, Angular, Wordpress**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
