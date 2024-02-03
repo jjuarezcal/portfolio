@@ -166,6 +166,11 @@ body {
     height: 40px;
 }
 
+.main__image--linkedin {
+    width: 30px;
+    height: 30px;
+}
+
 .chart__container {
     display: flex;
     align-items: flex-start;
@@ -184,12 +189,40 @@ body {
 
 .main__css {
     grid-area: css;
+    display: flex;
+    padding: 2.5rem 1rem 2.5rem 1.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
     border-radius: 1.875rem;
     border: 2px solid var(--Primary-Grey, #292A36);
 }
 
 .main__figma {
     grid-area: figma;
+    display: flex;
+    padding: 2.5rem 1rem 2.5rem 1.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
     border-radius: 1.875rem;
     border: 2px solid var(--Primary-Grey, #292A36);
 }
+
+.bottom_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.bottom__title {
+    font-size: 0.5rem;
+    font-weight: 300;
+}
+
+.bottom__percent {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.bottom__subtitle {}
