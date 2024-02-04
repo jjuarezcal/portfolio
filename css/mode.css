@@ -37,15 +37,6 @@ body {
         background-color: rgb(18, 70, 70);
     }
     .aside__copy {
-        display: flex;
-        width: 16.75rem;
-        height: 5.3125rem;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
-        flex-shrink: 0;
-        border-radius: 0.625rem;
-        margin-top: 6rem;
         background: linear-gradient(101deg, rgb(72 69 69 / 38%) 0%, rgb(142 137 137 / 0%) 58.37%);
     }
     .menu__li,
@@ -61,6 +52,9 @@ body {
     .search__input,
     .container__userdata {
         background-color: var(--background-color-ligth);
+    }
+    .aside__a {
+        color: #000000;
     }
     .aside__block,
     .aside__block--right {
