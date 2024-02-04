@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/mode.css">
     <link rel="stylesheet" href="css/extensions.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://css.gg/css" rel="stylesheet" />
 </head>
 
@@ -18,19 +19,25 @@
 
         <!-- sidebar -->
         <div class="layout__aside aside">
-            <div class="aside__title"><img src="./public/images/html-5-logo.png" alt="logotipo html 5" title="Logo html5" class="aside__logo" id="logo">JUAN JUÁREZ</div>
+            <div class="aside__title" data-tooltip="JUAN JUÁREZ" data-tooltip-location="bottom"><img src="./public/images/html-5-logo.png" alt="logotipo html 5" title="Logo html5" class="aside__logo" id="logo">JUAN JUÁREZ</div>
             <div class="aside__menu">
                 <ul class="aside__ul">
-                    <li class="aside__li--actived "><a href="#" class="aside__a"><i class="aside__i gg-user-list"></i>Detalles usuario</a></li>
-                    <li class="aside__li"><a href="#" class="aside__a"><i class="aside__i gg-euro"></i>Situación actual</a></li>
-                    <li class="aside__li"><a href="#" class="aside__a"><i class="aside__i gg-designmodo"></i>Preferencias laborales</a></li>
-                    <li class="aside__li"><a href="#" class="aside__a"><i class="aside__i gg-collage"></i>Herramientas de trabajo</a></li>
-                    <li class="aside__li"><a href="#" class="aside__a"><i class="aside__i gg-coffee"></i>Perfiles sociales</a></li>
-                    <li class="aside__li--featured"><a href="#" class="aside__a"><i class="aside__i gg-smartphone-shake"></i>Contacto</a></li>
+                    <li class="aside__li--actived">
+                        <a href="#" class="aside__a"><i class="aside__i gg-user-list"></i><span> Detalles usuario</span></a></li>
+                    <li class="aside__li">
+                        <a href="#" class="aside__a"><i class="aside__i gg-euro"></i><span> Situación actual</span></a></li>
+                    <li class="aside__li">
+                        <a href="#" class="aside__a"><i class="aside__i gg-designmodo"></i><span> Preferencias laborales</span></a></li>
+                    <li class="aside__li">
+                        <a href="#" class="aside__a"><i class="aside__i gg-collage"></i><span> Herramientas de trabajo</span></a></li>
+                    <li class="aside__li">
+                        <a href="#" class="aside__a"><i class="aside__i gg-coffee"></i><span> Perfiles sociales</span></a></li>
+                    <li class="aside__li--featured"><a href="#" class="aside__a"><i class="aside__i gg-smartphone-shake"></i><span> Contacto</span></a></li>
                 </ul>
             </div>
-            <div class="aside__copy">
-                <img src="./public/images/css3.png" alt="logotipo css3" title="Logo css" class="aside__logo--footer" id="logo-fotter"> Contacto profesional
+            <div class="aside__copy" data-tooltip="Contacto linkedin JUAN JUÁREZ" data-tooltip-location="bottom">
+                <img src="./public/images/css3.png" alt="logotipo css3" title="Logo css" class="aside__logo--footer" id="logo-fotter">
+                <a href="https://www.linkedin.com/in/jjuarezcal" class="aside__href" alt="Contacto linkedin JUAN JUÁREZ" target="_blank">Contacto linkedin</a>
             </div>
         </div>
         <!-- fin sidebar -->
@@ -64,24 +71,25 @@
                 <h3 class="main__h3">Contactar conmigo:</h3>
                 <p>
                     <a href="https://linkedin.com/in/jjuarezcal" target="blank" alt="enlace a linkedin">
-                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jjuarezcal" class="main__image--linkedin" /></a>
+                        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="link al perfil de git de jjuarezcal" class="main__image--linkedin" title="link al perfil de git de jjuarezcal"
+                        /></a>
                 </p>
 
                 <h3 class="main__h3">Languages y herramientas:</h3>
                 <div class="main__tools">
-                    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" class="main__image" />
-                    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" class="main__image" />
-                    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" class="main__image" />
-                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" class="main__image" />
-                    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" class="main__image" />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" class="main__image" />
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" class="main__image" />
+                    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Logotipo angular" data-tooltip="Logotipo angular" data-tooltip-location="left" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="Logotipo css3" class="main__image" />
+                    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Logotipo figma" class="main__image" />
+                    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Logotipo firebase" class="main__image" />
+                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Logotipo git" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="Logotipo html5" class="main__image" />
+                    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="Logotipo illustrator" class="main__image" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="Logotipo ionic" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Logotipo javascript" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="Logotipo mysql" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Logotipo photoshop" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="Logotipo sass" class="main__image" />
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="Logotipo typescript" class="main__image" />
                 </div>
 
                 <!-- fin code github readme -->
