@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Inter:wght@200;300;400;500&display=swap');
 :root {
     --font-family: 'Inter', sans-serif;
     --body-background-mode: #1E1E1E;
@@ -43,6 +44,8 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding-bottom: 1rem;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
 }
 
 .aside__logo {
