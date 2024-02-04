@@ -36,6 +36,8 @@ body {
 .aside {
     grid-area: aside;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .aside__title {
@@ -94,7 +96,8 @@ body {
     gap: 1rem;
     flex-shrink: 0;
     border-radius: 0.625rem;
-    margin-top: 11rem;
+    /* margin-top: 11rem; */
+    margin-top: auto;
     background: linear-gradient(101deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 58.37%);
 }
 
@@ -175,8 +178,18 @@ body {
     height: auto;
     padding: 2.5rem 1rem 2.5rem 1.5rem;
     border: 2px solid var(--Primary-Grey, #292A36);
-    /* background: url(../public/images/html5.jpg), lightgray 50% / cover no-repeat;
-    background-size: cover; */
+}
+
+.main__profile--nomargin {
+    grid-area: profile;
+    border-radius: 1.875rem;
+    height: auto;
+    padding: 0rem;
+    border: 2px solid var(--Primary-Grey, #292A36);
+}
+
+.main__image--html {
+    border-radius: 1.875rem;
 }
 
 .main__tools {
