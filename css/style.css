@@ -8,12 +8,29 @@
     --background-color-ligth: #ffffff;
     --text-color-primary: #CCCCCC;
     --color: #b4b4bd;
+    --html-blue: #5BAAE2;
+    --html-red: #E67786;
+    --html-lightblue: #BFFADD;
+    --html-green: #756F3D;
+    --html-white: #FFFFFF;
 }
 
 body {
     background-color: var(--body-background-mode);
     font-family: var(--font-family);
     font-weight: 300;
+}
+
+.main__blue {
+    color: var(--html-blue);
+}
+
+.main__white {
+    color: var(--html-blue);
+}
+
+.main__lightblue {
+    color: var(--html-lightblue);
 }
 
 
@@ -183,10 +200,8 @@ body {
 
 .main__profile--nomargin {
     grid-area: profile;
-    border-radius: 1.875rem;
     height: auto;
     padding: 0rem;
-    border: 2px solid var(--Primary-Grey, #292A36);
 }
 
 .main-tools {
@@ -236,6 +251,10 @@ body {
 .main__image--linkedin {
     width: 30px;
     height: 30px;
+}
+
+.main--code {
+    overflow: visible;
 }
 
 .chart__container {
