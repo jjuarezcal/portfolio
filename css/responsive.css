@@ -40,19 +40,11 @@
         grid: "profile profile" auto "html html" auto "css figma" auto / 1fr 1fr;
         gap: 8px;
     }
-    code[class*=language-],
-    pre[class*=language-] {
-        font-size: 0.8em;
-    }
 }
 
 @media (max-width: 500px) {
     .main {
         grid: "profile" auto "html" auto "css" auto "figma" auto / 1fr;
         gap: 8px;
-    }
-    code[class*=language-],
-    pre[class*=language-] {
-        font-size: 0.7em;
     }
 }
