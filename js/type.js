@@ -7,7 +7,8 @@ var typed = new Typed('#element', {
         'if (y la suite de Adobe)',
         'function controlVersiones (Git y GitHub)',
         'if (necesitoGestor == true) cms = Cms preferido Worpress && Preferencia de maquetado en Wordpress, Divi',
-        'else Maquetado HTML, CSS, Javascript'
+        'else Maquetado HTML, CSS, Javascript',
+        'return entregar trabajos (◕‿◕)'
     ],
     typeSpeed: 50, // Velocidad en mlisegundos para poner una letra,
     startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
