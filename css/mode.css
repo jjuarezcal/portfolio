@@ -67,4 +67,12 @@ body {
     .header__slider:before {
         background-image: url(../public/images/sun.png);
     }
+    .form__label {
+        color: #000000;
+    }
+    .form__alert {
+        color: royalblue;
+        font-size: 0.8rem;
+        font-style: italic;
+    }
 }
