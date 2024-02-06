@@ -257,6 +257,25 @@ body {
     overflow: visible;
 }
 
+.element__content {
+    background-color: #2e2e30;
+    border-radius: 1rem;
+    min-height: 12rem;
+}
+
+.element__title {
+    background-color: #b4b4bd;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.element__element {
+    padding: 2rem;
+    color: #FFFFFF;
+    font-size: larger;
+}
+
 .chart__container {
     display: flex;
     align-items: flex-start;
