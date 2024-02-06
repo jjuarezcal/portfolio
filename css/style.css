@@ -204,6 +204,20 @@ body {
     padding: 0rem;
 }
 
+.main__content--form {
+    border: 2px dashed #b4b4bd;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
 .main-tools {
     grid-area: main;
     display: grid;
@@ -274,6 +288,42 @@ body {
     padding: 2rem;
     color: #FFFFFF;
     font-size: larger;
+}
+
+.form__input {
+    width: 90%;
+    background-color: #FFFFFF;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+    border: 1px solid #b4b4bd;
+}
+
+.form__label {
+    color: var(--html-lightblue);
+}
+
+.form__alert {
+    color: var(--html-red);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.form__btn {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    padding: 0.6rem 0.8rem;
+}
+
+.form__btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+.form__btn:hover {
+    stroke-dashoffset: -480;
 }
 
 .chart__container {
